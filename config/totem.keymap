@@ -56,6 +56,36 @@
             bindings = <&kp MINUS>;
             key-positions = <19 31>;
         };
+
+        crtl-right {
+            bindings = <&kp LCTRL>;
+            key-positions = <16 17>;
+        };
+
+        crtl-left {
+            bindings = <&kp LCTRL>;
+            key-positions = <10 11>;
+        };
+
+        alt-left {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <11 12>;
+        };
+
+        alt-right {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <17 18>;
+        };
+
+        win-left {
+            bindings = <&kp LEFT_COMMAND>;
+            key-positions = <13 12>;
+        };
+
+        win-right {
+            bindings = <&kp LEFT_COMMAND>;
+            key-positions = <19 18>;
+        };
     };
 
     macros {
@@ -125,7 +155,7 @@
             bindings = <
                 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5      &kp NUMBER_6  &kp N7         &kp N8        &kp N9      &kp N0
                 &trans        &kp LEFT      &kp UP_ARROW  &kp RIGHT     &kp LBKT    &kp RBKT      &kp PG_UP      &trans        &kp MINUS   &kp EQUAL
-&kp LEFT_SHIFT  &kp DEL       &kp LEFT      &kp DOWN      &trans        &kp LPAR    &kp RPAR      &kp PAGE_DOWN  &kp COMMA     &kp PERIOD  &trans     &trans
+&kp LEFT_SHIFT  &kp DEL       &trans        &kp DOWN      &trans        &kp LPAR    &kp RPAR      &kp PAGE_DOWN  &kp COMMA     &kp PERIOD  &trans     &trans
                                             &trans        &trans        &trans      &mo 3         &trans         &kp KP_COMMA
             >;
         };
